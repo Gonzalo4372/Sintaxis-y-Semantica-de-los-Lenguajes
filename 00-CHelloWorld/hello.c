@@ -1,15 +1,11 @@
 #include <stdio.h>
 
-
-
-int main(void){
-
+int main(void)
+{
 
     printf("Hello World! \n");
 
-   FILE* HelloWorld = fopen("output.txt", "wt");
+    FILE *HelloWorld = fopen("output.txt", "wt");
 
-
-    printf (HelloWorld, "Hello World");
-
+    printf(HelloWorld, "Hello World");
 }
